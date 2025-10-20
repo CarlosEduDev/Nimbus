@@ -1,6 +1,4 @@
-package com.example.nimbus.api;
-
-import com.example.nimbus.openWeatherJson.WeatherResponse;
+package com.example.nimbus.openWeatherApi;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

@@ -1,4 +1,4 @@
-package com.example.nimbus.openWeatherJson;
+package com.example.nimbus.openWeatherApi;
 
 import com.google.gson.annotations.SerializedName;
 
