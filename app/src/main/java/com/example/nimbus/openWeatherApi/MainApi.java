@@ -18,6 +18,9 @@ public class MainApi {
     @SerializedName("temp_max")
     private int temp_max;
 
+    @SerializedName("feels_like")
+    private double sensTermica; // sensação térmica
+
     public int getTemperatura() {
         return temperatura;
     }
@@ -36,5 +39,9 @@ public class MainApi {
 
     public int getTemp_max() {
         return temp_max;
+    }
+
+    public double getSensTermica() {
+        return sensTermica;
     }
 }

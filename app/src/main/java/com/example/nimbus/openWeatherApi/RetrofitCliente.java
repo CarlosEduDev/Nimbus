@@ -1,5 +1,7 @@
 package com.example.nimbus.openWeatherApi;
 
+import com.example.nimbus.openWeatherApi.interfaces.WeatherApiService;
+
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
