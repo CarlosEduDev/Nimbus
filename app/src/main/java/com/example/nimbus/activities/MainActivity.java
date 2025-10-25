@@ -81,8 +81,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("MainActivity", "voltou para a tela inicial");
             }
         });
-
-
     }
 
     private void initViews(){
@@ -161,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         String max = String.format("%.0f°C", apiData.getMainApi().getTemp_max());
         String min = String.format("%.0f°C", apiData.getMainApi().getTemp_min());
         String press = String.format("%.0f hPa", apiData.getMainApi().getPressao());
-        String hum = String.format("%.0f", apiData.getMainApi().getUmidade());
+        String hum = String.format("%.0f%%", apiData.getMainApi().getUmidade());
 
         Log.d("MainActivity", "converteu e criou classe city");
         return new City(nome, temp, desc, wind, max, min, press, hum);

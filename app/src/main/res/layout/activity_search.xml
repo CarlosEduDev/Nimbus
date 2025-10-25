@@ -8,22 +8,19 @@
     android:background="@drawable/gradient_background"
     tools:context=".activities.SearchActivity">
 
-    <!-- Botão de Voltar -->
-
-    <!-- Campo de Texto para a Cidade -->
-
     <ImageView
         android:id="@+id/btnVoltar"
-        android:layout_width="59dp"
-        android:layout_height="41dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="295dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/left_arrow"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="59dp" />
+        app:tint="@android:color/white" />
 
     <EditText
         android:id="@+id/editTextSearchCity"

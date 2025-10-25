@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Este ficheiro deve estar em res/layout/activity_details.xml -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +6,20 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
     tools:context=".activities.DetalhesCidadeActivity">
+
+    <ImageView
+        android:id="@+id/btnVoltarDetails"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow"
+        app:tint="@android:color/white" />
 
     <TextView
         android:id="@+id/tvCityNameDetails"
@@ -22,6 +35,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Porto Velho, BR" />
 
+    <!-- O resto do seu layout (TextViews, CardView, etc.) continua igual... -->
     <TextView
         android:id="@+id/tvTempDetails"
         android:layout_width="wrap_content"
@@ -173,3 +187,4 @@
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
