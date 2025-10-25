@@ -6,10 +6,10 @@ public class City implements Serializable {
     private String nome, temp, descricao;
     private String windSpeed, temp_max, temp_min, pressure, humidity; // segunda tela
 
-    public City(String nome, String temp, String descricao, String windSpeed, String temp_max, String temp_min, String pressure, String humidity) {
+    public City(String nome, String temp, String desc, String windSpeed, String temp_max, String temp_min, String pressure, String humidity) {
         this.nome = nome;
         this.temp = temp;
-        this.descricao = descricao;
+        this.descricao = desc;
         this.windSpeed = windSpeed;
         this.temp_max = temp_max;
         this.temp_min = temp_min;

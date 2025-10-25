@@ -4,40 +4,40 @@ import com.google.gson.annotations.SerializedName;
 
 public class MainApi {
     @SerializedName("temp")
-    private int temperatura;
+    private double temperatura;
 
     @SerializedName("pressure")
-    private int pressao;
+    private double pressao;
 
     @SerializedName("humidity")
-    private int umidade;
+    private double umidade;
 
     @SerializedName("temp_min")
-    private int temp_min;
+    private double temp_min;
 
     @SerializedName("temp_max")
-    private int temp_max;
+    private double temp_max;
 
     @SerializedName("feels_like")
     private double sensTermica; // sensação térmica
 
-    public int getTemperatura() {
+    public double getTemperatura() {
         return temperatura;
     }
 
-    public int getPressao() {
+    public double getPressao() {
         return pressao;
     }
 
-    public int getUmidade() {
+    public double getUmidade() {
         return umidade;
     }
 
-    public int getTemp_min() {
+    public double getTemp_min() {
         return temp_min;
     }
 
-    public int getTemp_max() {
+    public double getTemp_max() {
         return temp_max;
     }
 

@@ -4,9 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class Wind {
     @SerializedName("speed")
-    private int speed;
+    private double speed;
 
-    public int getSpeed() {
+    public double getSpeed() {
         return speed;
     }
 }

@@ -4,7 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-// endpoint oneCall 3.0
 public class WeatherResponse {
     @SerializedName("name")
     private String name;
