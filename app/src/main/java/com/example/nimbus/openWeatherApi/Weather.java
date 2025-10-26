@@ -1,4 +1,4 @@
-package com.example.nimbus.openWeatherJson;
+package com.example.nimbus.openWeatherApi;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -6,7 +6,7 @@ public class Weather {
     @SerializedName("id")
     private int id;
 
-    @SerializedName("main")
+    @SerializedName("main") // nuvens, ensolarado, etc.
     private String main;
 
     @SerializedName("description")
